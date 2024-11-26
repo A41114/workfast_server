@@ -1,0 +1,79 @@
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('ROLE','R1', 'Quản trị viên' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('ROLE','R2', 'Nhà tuyển dụng' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('ROLE','R3','Ứng viên' ); 
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('STATUS','S1','Đợi xác nhận' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('STATUS','S2','Chờ phỏng vấn' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('STATUS','S3','Được nhận' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('STATUS','S4','Bị loại' ); 
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC1','Hà Nội' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC2','Hồ Chí Minh' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC3','Đà Nẵng' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC4','Cần Thơ' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC5','Bình Dương' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC6','Đồng Nai' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC7','Quảng Ninh' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC8','Thừa Thiên Huế' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC9','Quảng Bình' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('LOCATION','LOC10','Khánh Hòa' );
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN1', 'Tài chính' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN2', 'Viễn thông' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN3','Điện/Điện tử' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN4', 'Vận tải' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN5', 'Vật liệu xây dựng' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN6','Thời trang/Trang sức' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN7', 'Thương mại điện tử' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN8', 'Thú y' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN9','Sản xuất' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN10', 'Phần mềm CNTT/Dịch vụ phần mềm' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN11', 'Nội thất/Gỗ' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN12','Dệt may/May mặc/Giày dép' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN13','Dược phẩm' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN15', 'Chứng khoán' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN16', 'Nghệ thuật/Giải trí' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN17','Ngân hàng' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN18','Kiến trúc/Thiết kế nội thất' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN19', 'Hàng tiêu dùng' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('INDUSTRY','IN20', 'Khác' ); 
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS1', 'Thực tập sinh' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS2', 'Nhân viên' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS3','Trưởng nhóm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS4','Trưởng/Phó phòng' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS5','Quản lý/Giám sát' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS6','Trưởng chi nhánh' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS7','Phó giám đốc' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('POSITION','POS8','Giám đốc' );
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE1','Bán lẻ - Hàng tiêu dùng' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE2','Bảo hiểm' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE3','Bảo trì/Sửa chữa' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE4','Bất động sản' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE5','Chứng khoán' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE6','Cơ khí' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE7','Cơ quan nhà nước' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE8','Du lịch' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE9','Giải trí' ); 
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('FIELD','FIE10','IT' );
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP1','Chưa có kinh nghiệm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP2','Dưới 1 năm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP3','1 năm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP4','2 năm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP5','3 năm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP6','4 năm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP7','5 năm' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('EXPERIENCE','EXP8','Trên 5 năm' );
+
+
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL1','Dưới 10 triệu' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL2','10-15 triệu' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL3','15-20 triệu' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL4','20-25 triệu' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL5','25-30 triệu' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL6','30-50 triệu' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL7','Trên 50 triệu' );
+INSERT INTO ALLCODES (ALLCODES.type,ALLCODES.key, ALLCODES.value) values ('SALARY','SAL8','Thỏa thuận' );
